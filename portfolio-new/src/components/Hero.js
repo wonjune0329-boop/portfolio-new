@@ -1,4 +1,4 @@
-import yoon from '../assets/yoon.png';
+import yoon from '../assets/yoon.jpg';
 
 export default function Hero() {
   return (
