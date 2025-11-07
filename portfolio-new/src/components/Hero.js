@@ -1,3 +1,5 @@
+import yoon from '../assets/yoon.png';
+
 export default function Hero() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center py-32 bg-gradient-to-r from-blue-100 via-blue-50 to-white">
@@ -5,7 +7,7 @@ export default function Hero() {
       {/* 사진 섹션 */}
       <div className="w-72 h-72 rounded-full overflow-hidden shadow-xl mb-8 md:mb-0 md:mr-16 border-4 border-gray-100 p-2 bg-white flex items-center justify-center">
         <img 
-          src="/윤원준.jpg" 
+          src={yoon} 
           alt="윤원준" 
           className="w-full h-full object-contain" 
         />
