@@ -1,6 +1,6 @@
 import React from 'react';
-import logo1 from '../assets/logo1.png';
-import logo2 from '../assets/logo2.png';
+import spring from '../assets/spring.png';
+import chatbot from '../assets/chatbot.png';
 
 // 프로젝트 데이터 정의 (이미지 경로 및 설명 업데이트)
 const projectData = [
@@ -12,7 +12,7 @@ const projectData = [
         github: "https://github.com/wonjune0329-boop/myFirstBoard", // 실제 GitHub 주소로 변경 필요
         live: "https://myfirstboard-4fey.onrender.com/",
         // ⭐⭐ 게시판 프로젝트 이미지 경로 (실제 파일명으로 변경 필요) ⭐⭐
-        image: {logo2} // 이 파일은 `/public/images`에 있어야 합니다.
+        image: {spring} // 이 파일은 `/public/images`에 있어야 합니다.
     },
     {
         title: "🤖 AI 챗봇 연동 음식 추천 웹 서비스 (LunchBot)",
@@ -22,7 +22,7 @@ const projectData = [
         github: "https://github.com/jglee2772/chatFood", // ⭐⭐ 깃허브 주소 적용 ⭐⭐
         live: "https://chatfood-spring-boot.onrender.com/", 
         // ⭐⭐ 제공해주신 log21.png 이미지 경로 적용 ⭐⭐
-        image: {logo1} // `/public` 폴더 바로 아래의 `log21.png` 파일을 사용합니다.
+        image: {chatbot} // `/public` 폴더 바로 아래의 `log21.png` 파일을 사용합니다.
     }
 ];
 
