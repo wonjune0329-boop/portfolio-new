@@ -1,18 +1,19 @@
 import React from 'react';
 import spring from '../assets/spring.png';
 import chatbot from '../assets/chatbot.png';
+import interview from '../assets/interview.png';
 
 // 프로젝트 데이터 정의 (이미지 경로 및 설명 업데이트)
 const projectData = [
     {
-        title: "🖥️ Spring 기반 미니멀 게시판 서비스",
-        subtitle: "Spring Boot 학습을 위한 기본 CRUD 웹 애플리케이션",
-        description: "국비 교육 과정에서 Spring Boot의 핵심 기능을 숙달하기 위해 개발한 게시판 사이트입니다. 사용자 인증을 포함한 기본적인 CRUD(생성/조회/수정/삭제) 기능을 구현하여 백엔드 개발 흐름을 완전히 이해하는 데 중점을 두었습니다.",
-        techs: ["Spring Boot", "PostgreSQL", "HTML/CSS"],
-        github: "https://github.com/wonjune0329-boop/myFirstBoard", // 실제 GitHub 주소로 변경 필요
-        live: "https://myfirstboard-4fey.onrender.com/",
-        // ⭐⭐ 게시판 프로젝트 이미지 경로 (실제 파일명으로 변경 필요) ⭐⭐
-        image: spring // 이 파일은 `/public/images`에 있어야 합니다.
+        title: " AI 면접 시뮬레이션 플랫폼 (Interview Master)",
+        subtitle: "면접 준비를 위한 AI 기반 시뮬레이션 서비스",
+        description: "취준생들을 위한 AI 면접 시뮬레이션 플랫폼으로, 사용자가 실제 면접 상황을 연습할 수 있도록 돕습니다. React 프론트엔드와 Django 백엔드를 활용하여 사용자 친화적인 인터페이스와 안정적인 서버 환경을 구축했습니다.",
+        techs: ["React", "JavaScript", "axios", "JavaScript", "Python", "Django", "MySQL", "AWS Lightsail"],
+        github: "https://github.com/jglee2772/interview_simul", // ⭐⭐ 깃허브 주소 적용 ⭐⭐
+        live: "http://13.125.180.201/", 
+        // ⭐⭐ 제공해주신 log21.png 이미지 경로 적용 ⭐⭐
+        image: interview // `/public` 폴더 바로 아래의 `log21.png` 파일을 사용합니다.
     },
     {
         title: "🤖 AI 챗봇 연동 음식 추천 웹 서비스 (LunchBot)",
@@ -23,6 +24,16 @@ const projectData = [
         live: "https://chatfood-spring-boot.onrender.com/", 
         // ⭐⭐ 제공해주신 log21.png 이미지 경로 적용 ⭐⭐
         image: chatbot // `/public` 폴더 바로 아래의 `log21.png` 파일을 사용합니다.
+    },
+    {
+        title: "🖥️ Spring 기반 미니멀 게시판 서비스",
+        subtitle: "Spring Boot 학습을 위한 기본 CRUD 웹 애플리케이션",
+        description: "국비 교육 과정에서 Spring Boot의 핵심 기능을 숙달하기 위해 개발한 게시판 사이트입니다. 사용자 인증을 포함한 기본적인 CRUD(생성/조회/수정/삭제) 기능을 구현하여 백엔드 개발 흐름을 완전히 이해하는 데 중점을 두었습니다. 현재 데이터베이스 기간 만료로 개선 예정입니다.",
+        techs: ["Spring Boot", "PostgreSQL", "HTML/CSS"],
+        github: "https://github.com/wonjune0329-boop/myFirstBoard", // 실제 GitHub 주소로 변경 필요
+        live: "https://myfirstboard-4fey.onrender.com/",
+        // ⭐⭐ 게시판 프로젝트 이미지 경로 (실제 파일명으로 변경 필요) ⭐⭐
+        image: spring // 이 파일은 `/public/images`에 있어야 합니다.
     }
 ];
 
