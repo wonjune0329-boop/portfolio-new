@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-new/static/css/main.c5b49453.css",
+    "main.js": "/portfolio-new/static/js/main.5ac507e7.js",
+    "static/media/chatbot.png": "/portfolio-new/static/media/chatbot.f1907e003ca5d781326a.png",
+    "static/media/interview.png": "/portfolio-new/static/media/interview.c5745d05c3174ab0cf36.png",
+    "static/media/yoon.jpg": "/portfolio-new/static/media/yoon.dc6436dbf9ca8ffcceb8.jpg",
+    "static/media/spring.png": "/portfolio-new/static/media/spring.80537015dd51e2df169e.png",
+    "index.html": "/portfolio-new/index.html",
+    "main.c5b49453.css.map": "/portfolio-new/static/css/main.c5b49453.css.map",
+    "main.5ac507e7.js.map": "/portfolio-new/static/js/main.5ac507e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b49453.css",
+    "static/js/main.5ac507e7.js"
+  ]
+}
